@@ -1,0 +1,57 @@
+/* app.css */
+
+/* Global styles */
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .todo-notes-component {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .todo-notes-component h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .todo-notes-component p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .todo-notes-component input[type="text"],
+  .todo-notes-component textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-notes-component button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-notes-component button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-notes-component ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-notes-component li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .todo-notes-component form {
+    margin-bottom: 20px;
+  }
